@@ -1,0 +1,268 @@
+-- GUI to Lua
+-----
+-- Version: 2.0.
+-- Made by chrisopdemobiel.
+
+-- Instances:
+
+local MainScript = Instance.new("ScreenGui")
+local SYNAPSE = Instance.new("Frame")
+local ahh = Instance.new("Frame")
+local huh = Instance.new("TextLabel")
+local huh_2 = Instance.new("TextLabel")
+local huh_3 = Instance.new("TextLabel")
+local broahhh = Instance.new("TextBox")
+local _888 = Instance.new("TextLabel")
+local _99 = Instance.new("TextButton")
+local _787 = Instance.new("TextButton")
+local rte = Instance.new("TextButton")
+local _666 = Instance.new("TextButton")
+local EXECUTE = Instance.new("TextButton")
+local CLERAR = Instance.new("TextButton")
+local opensynaps = Instance.new("TextButton")
+
+--Properties:
+
+MainScript.Name = "MainScript"
+MainScript.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+MainScript.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+SYNAPSE.Name = "SYNAPSE"
+SYNAPSE.Parent = MainScript
+SYNAPSE.Active = true
+SYNAPSE.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SYNAPSE.Position = UDim2.new(0.258408517, 0, 0.323691458, 0)
+SYNAPSE.Size = UDim2.new(0.532198489, 0, 0.420110196, 0)
+SYNAPSE.Visible = false
+SYNAPSE.Draggable = true
+
+ahh.Name = "ahh"
+ahh.Parent = SYNAPSE
+ahh.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+ahh.Size = UDim2.new(1, 0, 0.13934426, 0)
+
+huh.Name = "huh"
+huh.Parent = ahh
+huh.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+huh.BackgroundTransparency = 1.000
+huh.Size = UDim2.new(1, 0, 0.970588207, 0)
+huh.Font = Enum.Font.SourceSans
+huh.Text = "SYNAPSE X"
+huh.TextColor3 = Color3.fromRGB(223, 154, 17)
+huh.TextScaled = true
+huh.TextSize = 14.000
+huh.TextWrapped = true
+
+huh_2.Name = "huh"
+huh_2.Parent = ahh
+huh_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+huh_2.BackgroundTransparency = 1.000
+huh_2.Position = UDim2.new(-0.057803452, 0, 0, 0)
+huh_2.Size = UDim2.new(0.433526009, 0, 0.970588207, 0)
+huh_2.Font = Enum.Font.SourceSans
+huh_2.Text = "V. 1.0.0"
+huh_2.TextColor3 = Color3.fromRGB(223, 154, 17)
+huh_2.TextScaled = true
+huh_2.TextSize = 14.000
+huh_2.TextWrapped = true
+
+huh_3.Name = "huh"
+huh_3.Parent = ahh
+huh_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+huh_3.BackgroundTransparency = 1.000
+huh_3.Position = UDim2.new(0.616570354, 0, 0.0294117648, 0)
+huh_3.Size = UDim2.new(0.252408475, 0, 0.941176474, 0)
+huh_3.Font = Enum.Font.SourceSans
+huh_3.Text = "Made by  SanTheDev#0430"
+huh_3.TextColor3 = Color3.fromRGB(223, 154, 17)
+huh_3.TextScaled = true
+huh_3.TextSize = 14.000
+huh_3.TextWrapped = true
+
+broahhh.Name = "broahhh"
+broahhh.Parent = SYNAPSE
+broahhh.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+broahhh.Position = UDim2.new(0, 0, 0.135245889, 0)
+broahhh.Size = UDim2.new(0.699421942, 0, 0.52868855, 0)
+broahhh.ClearTextOnFocus = false
+broahhh.Font = Enum.Font.SourceSans
+broahhh.PlaceholderText = "ENTER SCRIPT"
+broahhh.Text = ""
+broahhh.TextColor3 = Color3.fromRGB(0, 0, 0)
+broahhh.TextScaled = true
+broahhh.TextSize = 14.000
+broahhh.TextWrapped = true
+
+_888.Name = "888"
+_888.Parent = SYNAPSE
+_888.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_888.BackgroundTransparency = 1.000
+_888.Position = UDim2.new(0.699421942, 0, 0.135245904, 0)
+_888.Size = UDim2.new(0.300578028, 0, 0.204918027, 0)
+_888.Font = Enum.Font.SourceSans
+_888.Text = "Script Hub"
+_888.TextColor3 = Color3.fromRGB(255, 255, 255)
+_888.TextScaled = true
+_888.TextSize = 14.000
+_888.TextWrapped = true
+
+_99.Name = "99"
+_99.Parent = SYNAPSE
+_99.BackgroundColor3 = Color3.fromRGB(93, 93, 93)
+_99.Position = UDim2.new(0.699421942, 0, 0.340163946, 0)
+_99.Size = UDim2.new(0.300578028, 0, 0.163934425, 0)
+_99.Font = Enum.Font.SourceSans
+_99.Text = "inf yield"
+_99.TextColor3 = Color3.fromRGB(0, 0, 0)
+_99.TextScaled = true
+_99.TextSize = 14.000
+_99.TextWrapped = true
+
+_787.Name = "787"
+_787.Parent = SYNAPSE
+_787.BackgroundColor3 = Color3.fromRGB(93, 93, 93)
+_787.Position = UDim2.new(0.699421942, 0, 0.504098356, 0)
+_787.Size = UDim2.new(0.300578028, 0, 0.163934425, 0)
+_787.Font = Enum.Font.SourceSans
+_787.Text = "dark dex"
+_787.TextColor3 = Color3.fromRGB(0, 0, 0)
+_787.TextScaled = true
+_787.TextSize = 14.000
+_787.TextWrapped = true
+
+rte.Name = "rte"
+rte.Parent = SYNAPSE
+rte.BackgroundColor3 = Color3.fromRGB(93, 93, 93)
+rte.Position = UDim2.new(0.699421942, 0, 0.668032765, 0)
+rte.Size = UDim2.new(0.300578028, 0, 0.163934425, 0)
+rte.Font = Enum.Font.SourceSans
+rte.Text = "Adminus"
+rte.TextColor3 = Color3.fromRGB(0, 0, 0)
+rte.TextScaled = true
+rte.TextSize = 14.000
+rte.TextWrapped = true
+
+_666.Name = "666"
+_666.Parent = SYNAPSE
+_666.BackgroundColor3 = Color3.fromRGB(93, 93, 93)
+_666.Position = UDim2.new(0.886319816, 0, 0, 0)
+_666.Size = UDim2.new(0.113680154, 0, 0.135245904, 0)
+_666.Font = Enum.Font.SourceSans
+_666.Text = "X"
+_666.TextColor3 = Color3.fromRGB(0, 0, 0)
+_666.TextScaled = true
+_666.TextSize = 14.000
+_666.TextWrapped = true
+
+EXECUTE.Name = "EXECUTE"
+EXECUTE.Parent = SYNAPSE
+EXECUTE.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
+EXECUTE.Position = UDim2.new(0, 0, 0.668032765, 0)
+EXECUTE.Size = UDim2.new(0.385356456, 0, 0.331967205, 0)
+EXECUTE.Font = Enum.Font.SourceSans
+EXECUTE.Text = "Execute"
+EXECUTE.TextColor3 = Color3.fromRGB(0, 0, 0)
+EXECUTE.TextScaled = true
+EXECUTE.TextSize = 14.000
+EXECUTE.TextWrapped = true
+
+CLERAR.Name = "CLERAR"
+CLERAR.Parent = SYNAPSE
+CLERAR.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
+CLERAR.Position = UDim2.new(0.420038521, 0, 0.668032765, 0)
+CLERAR.Size = UDim2.new(0.279383421, 0, 0.331967205, 0)
+CLERAR.Font = Enum.Font.SourceSans
+CLERAR.Text = "Clear"
+CLERAR.TextColor3 = Color3.fromRGB(0, 0, 0)
+CLERAR.TextScaled = true
+CLERAR.TextSize = 14.000
+CLERAR.TextWrapped = true
+
+opensynaps.Name = "opensynaps"
+opensynaps.Parent = MainScript
+opensynaps.BackgroundColor3 = Color3.fromRGB(208, 147, 24)
+opensynaps.Position = UDim2.new(0, 0, 0.929752111, 0)
+opensynaps.Size = UDim2.new(0.169196054, 0, 0.0705922917, 0)
+opensynaps.Font = Enum.Font.SourceSans
+opensynaps.Text = "SYNAPSE X"
+opensynaps.TextColor3 = Color3.fromRGB(0, 0, 0)
+opensynaps.TextScaled = true
+opensynaps.TextSize = 14.000
+opensynaps.TextWrapped = true
+
+-- Scripts:
+
+local function FPFI_fake_script() -- _99.LocalScript 
+	local script = Instance.new('LocalScript', _99)
+
+	local broahh = script.Parent.Parent.broahhh
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		broahh.Text = "loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()"
+	end)
+end
+coroutine.wrap(FPFI_fake_script)()
+local function UABPV_fake_script() -- _787.LocalScript 
+	local script = Instance.new('LocalScript', _787)
+
+	local broahh = script.Parent.Parent.broahhh
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		broahh.Text = "loadstring(game:HttpGetAsync('https://raw.githubusercontent.com/Shadow-Developer/Shadow/master/Scripts/DarkDexExplorer.lua'))()"
+	end)
+end
+coroutine.wrap(UABPV_fake_script)()
+local function YTKI_fake_script() -- rte.LocalScript 
+	local script = Instance.new('LocalScript', rte)
+
+	local broahh = script.Parent.Parent.broahhh
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		broahh.Text = "loadstring(game:HttpGet('https://scripts.luawl.com/15129/AdminusFreeVersion.lua'))()"
+	end)
+end
+coroutine.wrap(YTKI_fake_script)()
+local function RYAW_fake_script() -- _666.LocalScript 
+	local script = Instance.new('LocalScript', _666)
+
+	local FRAMEFORSYANPSE = script.Parent.Parent.Parent.SYNAPSE
+	local oensynap = script.Parent.Parent.Parent.opensynaps
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		FRAMEFORSYANPSE.Visible = false
+		oensynap.Visible = true
+	end)
+end
+coroutine.wrap(RYAW_fake_script)()
+local function EMSYF_fake_script() -- EXECUTE.LocalScript 
+	local script = Instance.new('LocalScript', EXECUTE)
+
+	local bro = script.Parent.Parent.broahhh
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(script.Parent.Parent.broahhh.Text)()
+	end)
+end
+coroutine.wrap(EMSYF_fake_script)()
+local function DOQNI_fake_script() -- CLERAR.LocalScript 
+	local script = Instance.new('LocalScript', CLERAR)
+
+	local bro = script.Parent.Parent.broahhh
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		bro.Text = ""
+	end)
+end
+coroutine.wrap(DOQNI_fake_script)()
+local function PZNBU_fake_script() -- opensynaps.LocalScript 
+	local script = Instance.new('LocalScript', opensynaps)
+
+	local syanpse = script.Parent.Parent.SYNAPSE
+	local oensyans = script.Parent.Parent.opensynaps
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		syanpse.Visible = true
+		oensyans.Visible = false
+	end)
+end
+coroutine.wrap(PZNBU_fake_script)()
